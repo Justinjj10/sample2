@@ -18,6 +18,12 @@
 @property (weak, nonatomic) IBOutlet UITableView *ProTab;
 @property(weak,nonatomic) NSString *strpro;
 @property (weak, nonatomic) IBOutlet UIImageView *backimg;
+@property (weak, nonatomic) IBOutlet UIImageView *profimg;
+
+@property (weak, nonatomic) IBOutlet UILabel *admin;
+
+@property (weak, nonatomic) IBOutlet UILabel *phone;
+
 
 
 @end

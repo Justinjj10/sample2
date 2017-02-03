@@ -16,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *client_labl;
 @property (weak, nonatomic) IBOutlet UILabel *cat_labl;
 @property (weak, nonatomic) IBOutlet UILabel *type_labl;
+@property (weak, nonatomic) IBOutlet UIImageView *cellimg1;
 
 @end

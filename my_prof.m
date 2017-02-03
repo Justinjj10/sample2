@@ -16,8 +16,9 @@
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 #import "MBProgressHUD.h"
-
-
+#import <QuartzCore/QuartzCore.h>
+#define kBorderWidth 3.0
+#define kCornerRadius 8.0
 @interface my_prof ()
 {
     NSMutableDictionary *Dict;
@@ -50,24 +51,29 @@ int flag;
     
     
     
+      NSString *p=[[Dict objectForKey:@"admin_data"]valueForKey:@"phone"];
+    
+    _phone.text=p;
     
     
+    self.profimg.layer.borderWidth = 3.0f;
     
+    self.profimg.layer.borderColor = [UIColor whiteColor].CGColor;
     
+    self.profimg.layer.cornerRadius = self.profimg.frame.size.width / 2;
+    self.profimg.clipsToBounds = YES;
     
+ 
     
-    //plus button to show alert sheet for call,mail & cancel
-    
-//    UIButton *btnRight = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [btnRight setFrame:CGRectMake(0, 0, 25, 25)];
-//    [btnRight setImage:[UIImage imageNamed:@"add2"] forState:UIControlStateNormal];
-//    UIBarButtonItem *barBtnRight = [[UIBarButtonItem alloc] initWithCustomView:btnRight];
-//    [barBtnRight setTintColor:[UIColor whiteColor]];
-//    //[[[self tabBarController] navigationItem] setRightBarButtonItem:barBtnRight];
-//    [[self navigationItem] setRightBarButtonItem:barBtnRight];
-//    
-//    
-//    [btnRight addTarget:self action:@selector(rgt) forControlEvents:UIControlEventTouchUpInside];
+
+    CALayer *borderLayer = [CALayer layer];
+    CGRect borderFrame = CGRectMake(0, 0, (_profimg.frame.size.width), (_profimg.frame.size.height));
+    [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
+    [borderLayer setFrame:borderFrame];
+    [borderLayer setCornerRadius:kCornerRadius];
+    [borderLayer setBorderWidth:kBorderWidth];
+    [borderLayer setBorderColor:[[UIColor redColor] CGColor]];
+    [_profimg.layer addSublayer:borderLayer];
     
     [self fetchData];
 
@@ -292,9 +298,9 @@ int flag;
     
     
     
+
     
-    
-    
+   
     
     
     NSString *p1=[[Dict objectForKey:@"admin_data"]valueForKey:@"email"];

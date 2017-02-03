@@ -568,28 +568,14 @@
     
     
     
-    
-       
-    //int count=0;
-    // NSString *so=@"5";
-    // NSString *sm=[NSString stringWithFormat:@"%@",]
-    
-   
-    //
-    //
-    //        cell.img.backgroundColor=[caray objectAtIndex:i];
-    //
-    //
-    //
-    //
-    //    }
-    //
-    
-    
-   // cell.cellimg.backgroundColor=[self colorFromHexString:@"#F8C471"];
+       // cell.cellimg.backgroundColor=[self colorFromHexString:@"#F8C471"];
     cell.cellimg.layer.cornerRadius = cell.cellimg.frame.size.width / 2.0;
     cell.cellimg.clipsToBounds = YES;
-    
+        cell.cellimg1.layer.cornerRadius = cell.cellimg1.frame.size.width / 2.0;
+        cell.cellimg1.clipsToBounds = YES;
+
+        
+     
     
     NSString *s1=[[[Dict  objectForKey:@"visa_list"]valueForKey:@"visa_applicant_name"] objectAtIndex:indexPath.section];
     
@@ -673,10 +659,23 @@
         //    }
         //
         
-        
+//        
 //            cell.cellimg.backgroundColor=[self colorFromHexString:@"#F8C471"];
             cell.cellimg.layer.cornerRadius = cell.cellimg.frame.size.width / 2.0;
             cell.cellimg.clipsToBounds = YES;
+//
+        
+//        cell.cellimg.layer.backgroundColor=[[UIColor clearColor] CGColor];
+//       cell.cellimg.layer.cornerRadius=20;
+//        cell.cellimg.layer.borderWidth=2.0;
+        cell.cellimg.layer.masksToBounds = YES;
+      cell.cellimg.layer.borderColor=[[UIColor blackColor] CGColor];
+
+        
+        
+        
+        
+        
         
         
         NSString *s1=[[[Dict1  objectForKey:@"visa_list"]valueForKey:@"visa_applicant_name"] objectAtIndex:indexPath.section];
@@ -722,6 +721,7 @@
     else
     return NO;
 }
+
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

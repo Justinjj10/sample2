@@ -364,9 +364,9 @@
         NSHTTPURLResponse *response = nil;
         NSError *error ;
         NSData *returnData =[NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&response error:&error];
-        
-        NSString* newStr = [NSString stringWithUTF8String:[returnData bytes]];
-        NSLog(@"return data %@",newStr);
+//        
+//        NSString* newStr = [NSString stringWithUTF8String:[returnData bytes]];
+//        NSLog(@"return data %@",newStr);
         
         
         

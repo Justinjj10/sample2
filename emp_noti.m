@@ -1302,7 +1302,7 @@ int e;
     
     datePicker =[[UIDatePicker alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height-200,(self.view.frame.size.width), 200)];
     
-    [datePicker setMinimumDate: [NSDate date]];
+   // [datePicker setMinimumDate: [NSDate date]];
     datePicker.datePickerMode=UIDatePickerModeDate;
     datePicker.backgroundColor=[UIColor whiteColor];
     datePicker.date=[NSDate date];
