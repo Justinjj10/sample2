@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cela" id="gTV-IL-0wX" customClass="visacat">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0s-jl-eXc">
+                        <rect key="frame" x="4" y="79" width="145" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="k21-3Z-8fc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.0" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aV4-th-ZFQ">
+                        <rect key="frame" x="6" y="110" width="140" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.20000000000000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card1" translatesAutoresizingMaskIntoConstraints="NO" id="bjm-uN-pSU">
+                        <rect key="frame" x="34" y="0.0" width="85" height="81"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bjm-uN-pSU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3QB-5K-0Rw"/>
+                <constraint firstItem="bjm-uN-pSU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="34" id="C0g-R8-hXn"/>
+                <constraint firstItem="e0s-jl-eXc" firstAttribute="centerX" secondItem="aV4-th-ZFQ" secondAttribute="centerX" id="JYw-yb-Whg"/>
+                <constraint firstItem="bjm-uN-pSU" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="LYs-jE-iEN"/>
+                <constraint firstItem="aV4-th-ZFQ" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailingMargin" id="aXn-Re-Ys4"/>
+                <constraint firstItem="e0s-jl-eXc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="ccS-7s-wJ2"/>
+                <constraint firstItem="e0s-jl-eXc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="79" id="eht-1R-y6U"/>
+                <constraint firstAttribute="bottom" secondItem="aV4-th-ZFQ" secondAttribute="bottom" constant="14" id="jMd-aF-eco"/>
+                <constraint firstItem="aV4-th-ZFQ" firstAttribute="top" secondItem="e0s-jl-eXc" secondAttribute="bottom" constant="10" id="kkT-bz-qR5"/>
+                <constraint firstItem="bjm-uN-pSU" firstAttribute="centerX" secondItem="e0s-jl-eXc" secondAttribute="centerX" id="mze-ZX-lE3"/>
+                <constraint firstItem="aV4-th-ZFQ" firstAttribute="top" secondItem="bjm-uN-pSU" secondAttribute="bottom" constant="29" id="wjp-63-W5J"/>
+            </constraints>
+            <size key="customSize" width="164" height="138"/>
+            <connections>
+                <outlet property="img" destination="bjm-uN-pSU" id="ZjN-hM-CmM"/>
+                <outlet property="labl" destination="e0s-jl-eXc" id="vO8-uY-6Al"/>
+                <outlet property="labl2" destination="aV4-th-ZFQ" id="j3L-R5-n62"/>
+            </connections>
+            <point key="canvasLocation" x="-19" y="-22.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="card1" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11761" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="cmp_prof_view">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="U6f-MV-GOf">
+                    <rect key="frame" x="0.0" y="-11" width="320" height="491"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Elq-D9-UIe">
+                    <rect key="frame" x="25" y="213" width="263" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlH-Us-9Dy">
+                    <rect key="frame" x="41" y="126" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="hg0-7z-Qhn"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="phone1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjY-n3-pye">
+                    <rect key="frame" x="233" y="126" width="44" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="6ri-bv-cuw"/>
+                    </constraints>
+                    <state key="normal" image="mail1"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3SE-wK-pQ5">
+                    <rect key="frame" x="113" y="107" width="87" height="87"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="U6f-MV-GOf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-11" id="3Af-ha-9fs"/>
+                <constraint firstItem="3SE-wK-pQ5" firstAttribute="centerX" secondItem="Elq-D9-UIe" secondAttribute="centerX" id="5Ud-Dj-ORW"/>
+                <constraint firstItem="Elq-D9-UIe" firstAttribute="top" secondItem="jlH-Us-9Dy" secondAttribute="bottom" constant="42" id="5we-w2-BYW"/>
+                <constraint firstItem="bjY-n3-pye" firstAttribute="leading" secondItem="3SE-wK-pQ5" secondAttribute="trailing" constant="33" id="6va-aX-op0"/>
+                <constraint firstItem="jlH-Us-9Dy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="41" id="DvP-im-4sy"/>
+                <constraint firstAttribute="trailing" secondItem="bjY-n3-pye" secondAttribute="trailing" constant="43" id="G24-cg-3M6"/>
+                <constraint firstItem="3SE-wK-pQ5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="107" id="N4w-Ub-dZH"/>
+                <constraint firstItem="Elq-D9-UIe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="N8w-pT-I9q"/>
+                <constraint firstItem="3SE-wK-pQ5" firstAttribute="leading" secondItem="jlH-Us-9Dy" secondAttribute="trailing" constant="27" id="O9H-qx-MPB"/>
+                <constraint firstItem="U6f-MV-GOf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="P5H-Os-fby"/>
+                <constraint firstItem="jlH-Us-9Dy" firstAttribute="top" secondItem="bjY-n3-pye" secondAttribute="top" id="RGt-Lq-yLM"/>
+                <constraint firstAttribute="trailing" secondItem="Elq-D9-UIe" secondAttribute="trailing" constant="32" id="SSd-sV-YuH"/>
+                <constraint firstItem="jlH-Us-9Dy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="126" id="UJD-1B-ygW"/>
+                <constraint firstItem="Elq-D9-UIe" firstAttribute="top" secondItem="3SE-wK-pQ5" secondAttribute="bottom" constant="19" id="US0-fX-oxF"/>
+                <constraint firstItem="jlH-Us-9Dy" firstAttribute="bottom" secondItem="bjY-n3-pye" secondAttribute="bottom" id="XS4-35-9VC"/>
+                <constraint firstAttribute="bottom" secondItem="U6f-MV-GOf" secondAttribute="bottom" id="s6e-k0-pGu"/>
+                <constraint firstAttribute="trailing" secondItem="U6f-MV-GOf" secondAttribute="trailing" id="zzY-3g-79p"/>
+            </constraints>
+            <connections>
+                <outlet property="call" destination="jlH-Us-9Dy" id="DGF-4u-rVB"/>
+                <outlet property="img" destination="U6f-MV-GOf" id="uV2-zZ-5dX"/>
+                <outlet property="mail" destination="bjY-n3-pye" id="WB3-eF-1VD"/>
+                <outlet property="name_labl" destination="Elq-D9-UIe" id="o8b-5C-n7q"/>
+                <outlet property="prof_img" destination="3SE-wK-pQ5" id="Sn0-Gd-w2w"/>
+            </connections>
+            <point key="canvasLocation" x="45" y="-38"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="512" height="512"/>
+        <image name="mail1" width="60" height="60"/>
+        <image name="phone1" width="60" height="60"/>
+    </resources>
+</document>

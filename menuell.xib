@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="651" id="KGk-i7-Jjw" customClass="menuell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="651"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HkQ-Fn-y4O">
+                        <rect key="frame" x="0.0" y="138" width="320" height="800"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tv5-EH-Wxh">
+                                <rect key="frame" x="0.0" y="138" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            LATEST PROJECTS">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yT-BM-VGv">
+                                <rect key="frame" x="0.0" y="46" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            EQUITY FUNDING">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_tick" translatesAutoresizingMaskIntoConstraints="NO" id="bYS-rG-iNM">
+                                <rect key="frame" x="21" y="58" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxQ-e9-XBz">
+                                <rect key="frame" x="0.0" y="0.0" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            CROWDFUNDING">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_tick" translatesAutoresizingMaskIntoConstraints="NO" id="Icg-vQ-iB5">
+                                <rect key="frame" x="21" y="13" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon06" translatesAutoresizingMaskIntoConstraints="NO" id="HpB-El-GZr">
+                                <rect key="frame" x="21" y="197" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon07" translatesAutoresizingMaskIntoConstraints="NO" id="LnG-IX-aV0">
+                                <rect key="frame" x="21" y="243" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon05" translatesAutoresizingMaskIntoConstraints="NO" id="ZAN-eC-Cle">
+                                <rect key="frame" x="21" y="151" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-co-e7K">
+                                <rect key="frame" x="0.0" y="276" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            HOW IT WORKS?">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon08" translatesAutoresizingMaskIntoConstraints="NO" id="FKO-xH-yj9">
+                                <rect key="frame" x="21" y="289" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contact-1" translatesAutoresizingMaskIntoConstraints="NO" id="xyl-4o-Weh">
+                                <rect key="frame" x="21" y="380" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="len-r7-qBq">
+                                <rect key="frame" x="0.0" y="322" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            ABOUT US">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon09" translatesAutoresizingMaskIntoConstraints="NO" id="ffg-Ve-5Ne">
+                                <rect key="frame" x="21" y="335" width="20" height="20"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yga-wo-IFU">
+                                <rect key="frame" x="0.0" y="505" width="277" height="551"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUF-J5-kje">
+                                <rect key="frame" x="0.0" y="92" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            CATEGORIES">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon04" translatesAutoresizingMaskIntoConstraints="NO" id="9Wb-8Z-621">
+                                <rect key="frame" x="21" y="104" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoC-qN-FnK">
+                                <rect key="frame" x="0.0" y="184" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            MOST FUNDED">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPf-9o-mze">
+                                <rect key="frame" x="0.0" y="230" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            ENDING SOON">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEZ-Pp-Saw">
+                                <rect key="frame" x="0.0" y="367" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            CONTACT US">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Show:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wKw-la-WaY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PHF-UC-0aD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="229"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znx-kY-I5s">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.18039215689999999" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            SIGN UP">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_icon" translatesAutoresizingMaskIntoConstraints="NO" id="42n-kN-dJG">
+                                <rect key="frame" x="21" y="13" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26L-PL-LDN">
+                                <rect key="frame" x="0.0" y="92" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            HOME">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-xu-pTE">
+                                <rect key="frame" x="0.0" y="138" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            NEWS FEED">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newsfeed11.png" translatesAutoresizingMaskIntoConstraints="NO" id="7MD-KJ-KKz">
+                                <rect key="frame" x="21" y="151" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon02" translatesAutoresizingMaskIntoConstraints="NO" id="6Eu-1o-9f4">
+                                <rect key="frame" x="21" y="105" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74O-e1-9lY">
+                                <rect key="frame" x="0.0" y="46" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            LOG IN">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon01" translatesAutoresizingMaskIntoConstraints="NO" id="sxL-eE-X0Y">
+                                <rect key="frame" x="21" y="59" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuicon03" translatesAutoresizingMaskIntoConstraints="NO" id="dfw-Yc-TDE">
+                                <rect key="frame" x="21" y="197" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-W2-LQd">
+                                <rect key="frame" x="0.0" y="184" width="277" height="45"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="            DISCOVER">
+                                    <color key="titleColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Show:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ord-0a-f6p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21960784310000001" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ShowingView" destination="HkQ-Fn-y4O" id="4tc-pI-3Ir"/>
+                <outlet property="btnCategories" destination="FUF-J5-kje" id="Y9p-He-Mef"/>
+                <outlet property="btnContact" destination="cEZ-Pp-Saw" id="c8g-4E-oC0"/>
+                <outlet property="btnCrowdfunding" destination="NxQ-e9-XBz" id="8DT-EK-W54"/>
+                <outlet property="btnEndingSoon" destination="dPf-9o-mze" id="EEJ-mg-oGG"/>
+                <outlet property="btnEquityFunding" destination="1yT-BM-VGv" id="9N3-aQ-7Fj"/>
+                <outlet property="btnHome" destination="26L-PL-LDN" id="rzT-Fd-yfL"/>
+                <outlet property="btnHowsItWork" destination="eRU-co-e7K" id="d1e-xX-hYM"/>
+                <outlet property="btnLatestProjects" destination="Tv5-EH-Wxh" id="Jyx-t9-pnd"/>
+                <outlet property="btnLogin" destination="74O-e1-9lY" id="CUn-fY-5iv"/>
+                <outlet property="btnMostFunded" destination="aoC-qN-FnK" id="nOP-eF-cbV"/>
+                <outlet property="btnNewsFeed" destination="e5f-xu-pTE" id="ImA-ap-irJ"/>
+                <outlet property="btnPages" destination="len-r7-qBq" id="ufp-KX-hvE"/>
+                <outlet property="btnSignup" destination="Znx-kY-I5s" id="hfT-5Q-LXm"/>
+            </connections>
+            <point key="canvasLocation" x="210" y="587.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="contact-1" width="29" height="29"/>
+        <image name="login_icon" width="29" height="29"/>
+        <image name="menu_tick" width="20" height="20"/>
+        <image name="menuicon01" width="29" height="29"/>
+        <image name="menuicon02" width="29" height="29"/>
+        <image name="menuicon03" width="29" height="29"/>
+        <image name="menuicon04" width="29" height="29"/>
+        <image name="menuicon05" width="29" height="29"/>
+        <image name="menuicon06" width="29" height="29"/>
+        <image name="menuicon07" width="29" height="29"/>
+        <image name="menuicon08" width="29" height="29"/>
+        <image name="menuicon09" width="29" height="29"/>
+        <image name="newsfeed11.png" width="29" height="29"/>
+    </resources>
+</document>
